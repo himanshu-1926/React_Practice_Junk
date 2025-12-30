@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; /* Clean font for UI */
+}
+
+body {
+  background-color: #111; /* Light gray background like the reference */
+}
+
+.parent {
+  height: 100vh;
+  width: 100vw;
+  padding:35px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  
+  
+}
+
+.card {
+  height: 400px;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Soft shadow */
+}
+
+/* TOP SECTION */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    border-bottom: 1px solid black;
+padding-bottom: 20px;
+}
+
+.top > img {
+  height: 45px; /* Bigger logo */
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #f0f0f0;
+  padding: 5px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 6px 14px;
+  border-radius: 12px;
+  color: #666;
+  font-size: 14px;
+}
+
+.top button img {
+  width: 14px;
+  height: 14px;
+}
+
+/* CENTER SECTION */
+.center h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+}
+
+.center h3 span {
+  font-size: 11px;
+  font-weight: 400;
+  color: #999;
+  margin-left: 8px;
+}
+
+.center h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 8px;
+  color: #111;
+}
+
+.center .tag {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.center .tag h4 {
+  font-size: 12px;
+  background-color: #f1f1f1;
+  color: #444;
+  font-weight: 500;
+  padding: 6px 15px;
+  border-radius: 10px;
+ display: inline;
+
+}
+
+/* BOTTOM SECTION */
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.bottom h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: #999;
+}
+
+.bottom button {
+  background-color: #111; /* Black button like reference */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600; 
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bottom button:hover {
+  background-color: #333;
+}
