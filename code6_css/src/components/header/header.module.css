@@ -1,0 +1,10 @@
+.header{
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+} 
+.btn{
+  background-color: yellow;
+}
